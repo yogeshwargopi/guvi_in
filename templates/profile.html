@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/guvi_in/assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Profile</h2>
+        <form id="update-profile-form">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="form-control" id="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact:</label>
+                <input type="text" class="form-control" id="contact" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Update Profile</button>
+            <button id="logout-button" class="btn btn-danger mt-3">Logout</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/guvi_in/assets/js/profile.js"></script>
+</body>
+
+</html>

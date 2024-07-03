@@ -1,0 +1,14 @@
+{
+    "name": "yoges/guvi_in",
+    "type": "project",
+    "require": {
+        "mongodb/mongodb": "^1.19",
+        "predis/predis": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "yogeshwargopi",
+            "email": "yogeshwar.gopi.2913@gmail.com"
+        }
+    ]
+}
